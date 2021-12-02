@@ -4,7 +4,7 @@ const app = express();
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin",
-    "https://61a9542043af8500072b05d7--serene-wilson-429f98.netlify.app");
+    "https://serene-wilson-429f98.netlify.app");
   res.header("Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept");
   res.header("Access-Control-Allow-Methods",
